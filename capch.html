@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>hCaptcha Example</title>
+  <script src="https://hcaptcha.com/1/api.js" async defer></script>
+  <script>
+    function onHCaptchaSuccess(token) {
+      // Enable the submit button when captcha is passed
+      document.getElementById("submitBtn").disabled = false;
+    }
+
+    function onHCaptchaExpired() {
+      // Disable the button if captcha expires
+      document.getElementById("submitBtn").disabled = true;
+    }
+
+    window.onload = function () {
+      // Disable submit button by default
+      document.getElementById("submitBtn").disabled = true;
+    };
+  </script>
+</head>
+<body>
+
+  <form action="/submit" method="POST">
+    <label for="name">Name:</label>
+    <input type="text" name="name" required><br><br>
+
+    <!-- hCaptcha widget with callbacks -->
+    <div
+      class="h-captcha"
+      data-sitekey="6de278d6-1230-484c-b946-8388740aef76"
+      data-callback="onHCaptchaSuccess"
+      data-expired-callback="onHCaptchaExpired"
+    ></div>
+
+    <br>
+    <button type="submit" id="submitBtn">Submit</button>
+  </form>
+
+</body>
+</html>
