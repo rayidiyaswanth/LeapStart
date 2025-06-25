@@ -553,6 +553,11 @@ body{
 
 .comparistion-cols{
   font-family: "Montserrat";
+  margin: 15px 0;
+}
+
+.col-st, .col-en, .col-md {
+  margin: 0 auto;
 }
 
 .col-st h2{
@@ -569,4 +574,66 @@ body{
   background: -webkit-linear-gradient(0deg,hsla(196, 77%, 54%, 1) 0%,hsla(38, 92%, 65%, 1) 99%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: #fff0;
+}
+
+.others-vs{
+  background-color: #8080804f;
+  width: 80%;
+  border-radius: 8px;
+  margin: 0 auto;
+}
+
+.col-st p{
+  text-align: left;
+  border-radius: 8px;
+  font-size: 15px;
+  color: #343434;
+  font-weight: 500;
+  line-height: 30px;
+  padding: 5px 10px 5px 0px;
+}
+
+.col-st i{
+  padding: 12px 20px;
+}
+
+.leapstart-vs{
+  background: linear-gradient(90deg,hsla(196, 77%, 54%, 1) 0%,hsla(38, 92%, 65%, 1) 99%);
+  width: 95%;
+  border-radius: 8px;
+  margin: 0 auto;
+}
+
+.col-en p{
+  text-align: left;
+  border-radius: 8px;
+  font-size: 15px;
+  color: #343434;
+  font-weight: 500;
+  line-height: 30px;
+  padding: 5px 0px;
+}
+
+.col-en i{
+  padding: 12px 20px;
+  color: #ffffff;
+}
+
+
+.col-en p{
+  
+  padding: 5px 20px 5px 0px;
+  text-align: left;
+  border-radius: 8px;
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.col-md p{
+  color: #0e546d;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0px 20px 0px 0px;
 }
