@@ -34,6 +34,8 @@ body{
 
 .navbar-section {
   position: relative;
+  right: 0;
+  left: 0;
   z-index: 1000;
   padding: 0px 80px;
 }
@@ -636,4 +638,16 @@ body{
   font-size: 16px;
   font-weight: 600;
   padding: 0px 20px 0px 0px;
+}
+
+.career-outcomes-section{
+  background-color: #0e546d;
+  
+}
+
+.career-outcomes-section img{
+  width: auto;
+  max-height: 760px;
+  object-fit: cover;
+  margin: 0 auto;
 }
