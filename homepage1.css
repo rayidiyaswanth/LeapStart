@@ -665,7 +665,7 @@ body{
 
 .loc-sneek-section{
   background-color: #f7f7f7;
-  padding: 60px 0;
+  padding-top: 60px;
 }
 
 .loaction-section{
@@ -720,6 +720,32 @@ body{
   border-radius: 10px;
 }
 
-/* Owl Carousel Styles */
+.exposure-section{
+  background-color:  #000000;
+  padding: 60px 0;
+}
 
+.exposure-images{
+  width: 150px;
+  position: relative;
+  object-fit: contain;
+  aspect-ratio: 3 / 1;
+  margin: 10px 0;
+  padding: 5px;
+  border-radius: 2px;
+}
+
+.exposure-p{
+  width: 90%;
+  margin-top: 30px;
+}
+
+.exposure-p p{
+  font-family: "Montserrat";
+  width: 95%;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+}
 
