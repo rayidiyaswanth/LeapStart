@@ -1,5 +1,5 @@
 body{
-  height: 1000vh;
+  height: 2000vh;
   overflow-x: hidden;
 }
 
@@ -289,7 +289,7 @@ body{
 }
 
 
-.image-box{
+.image-box1{
   height: 100%;
   border: none;
   border-radius: 0px;
@@ -392,6 +392,17 @@ body{
   -webkit-background-clip: text;
   -webkit-text-fill-color: #fff0;
   font-weight: 600;
+}
+
+.speacial-headings h6{
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  background: -webkit-linear-gradient(0deg,hsla(196, 77%, 54%, 1) 0%,hsla(38, 92%, 65%, 1) 99%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #fff0;
+  font-weight: 600;
+  line-height: 1.2em;
+  padding: 10px 0;
 }
 
 .speacial-headings span{
@@ -652,8 +663,12 @@ body{
   margin: 0 auto;
 }
 
-.loaction-section{
+.loc-sneek-section{
+  background-color: #f7f7f7;
   padding: 60px 0;
+}
+
+.loaction-section{
   font-family: "Montserrat";
 }
 
@@ -684,12 +699,14 @@ body{
   position: relative;
   overflow:hidden;
   padding: 0 20px 20px 0;
+  z-index: 5;
 }
 
 .location-image{
   width: 100%;
   border-radius: 8px;
   position: relative;
+  z-index: 10;
 }
 
 .location-image-section::before {
@@ -701,5 +718,8 @@ body{
   height: 95%;
   background-color: #c1c1c1;
   border-radius: 10px;
-  z-index: -10;
 }
+
+/* Owl Carousel Styles */
+
+
