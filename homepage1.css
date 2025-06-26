@@ -651,3 +651,55 @@ body{
   object-fit: cover;
   margin: 0 auto;
 }
+
+.loaction-section{
+  padding: 60px 0;
+  font-family: "Montserrat";
+}
+
+.loaction-section h2{
+  text-transform: capitalize;
+  letter-spacing: -0.04em;
+  line-height: 1.2em;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  background: -webkit-linear-gradient(0deg,hsla(196, 77%, 54%, 1) 0%,hsla(38, 92%, 65%, 1) 99%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+  margin: auto 0;
+}
+
+.loaction-section span{
+  text-transform:none;
+  letter-spacing: normal;
+  line-height: normal;
+  font-family: "Montserrat", sans-serif;
+  font-size: 26px;
+  -webkit-text-fill-color: #f6a928;
+  font-weight: 700;
+}
+
+.location-image-section{
+  position: relative;
+  overflow:hidden;
+  padding: 0 20px 20px 0;
+}
+
+.location-image{
+  width: 100%;
+  border-radius: 8px;
+  position: relative;
+}
+
+.location-image-section::before {
+  content: '';
+  position: absolute;
+  bottom: 8px;
+  right: 6px;
+  width: 90%;
+  height: 95%;
+  background-color: #c1c1c1;
+  border-radius: 10px;
+  z-index: -10;
+}
